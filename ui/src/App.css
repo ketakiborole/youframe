@@ -38,15 +38,13 @@
 input[type="file"]{
   display: none;
 }
-label{
+.uploadLabel{
   justify-content: center;
-  margin: 50px 50px 50px 615px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 120px;
   height: 32px;
-  
   background-color: white;
   color: #2c5282;
   font-weight: 700;
@@ -54,7 +52,7 @@ label{
   border-radius: 5px;
   border: none;
   box-shadow: 0px 2px #2c5282;
-
+  margin: auto;
 }
 /*.image{
   border-top-left-radius: 5px;
